@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Máscaras de difuminado vertical - código de producción */
+  .mask-y-soft {
+    mask-image: linear-gradient(transparent 0px, rgb(0, 0, 0) 10%, rgb(0, 0, 0) 90%, transparent);
+    -webkit-mask-image: linear-gradient(transparent 0px, rgb(0, 0, 0) 10%, rgb(0, 0, 0) 90%, transparent);
+  }
+
+  .mask-top {
+    mask-image: linear-gradient(transparent 0px, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 100%);
+    -webkit-mask-image: linear-gradient(transparent 0px, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 100%);
+  }
+
+  .mask-bottom {
+    mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 85%, transparent 100%);
+    -webkit-mask-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 85%, transparent 100%);
+  }
+
+  .mask-fade-top-bottom {
+    mask-image: linear-gradient(transparent 0px, rgb(0, 0, 0) 20%, rgb(0, 0, 0) 80%, transparent);
+    -webkit-mask-image: linear-gradient(transparent 0px, rgb(0, 0, 0) 20%, rgb(0, 0, 0) 80%, transparent);
+  }
+
+  /* Efectos de glow para cyberpunk */
+  .drop-shadow-glow {
+    filter: drop-shadow(0 0 20px rgba(103, 61, 230, 0.5))
+            drop-shadow(0 0 40px rgba(103, 61, 230, 0.3));
+  }
+
+  .drop-shadow-glow-pink {
+    filter: drop-shadow(0 0 20px rgba(214, 49, 99, 0.5))
+            drop-shadow(0 0 40px rgba(214, 49, 99, 0.3));
+  }
+
+  .drop-shadow-glow-cyan {
+    filter: drop-shadow(0 0 20px rgba(52, 226, 206, 0.5))
+            drop-shadow(0 0 40px rgba(52, 226, 206, 0.3));
+  }
+}
+
+@layer base {
+  /* Variables CSS para facilitar el cambio de tema */
+  :root {
+    --bg-primary: #F8F9FA;
+    --text-primary: #1A1A1A;
+    --text-secondary: #6B7280;
+    --surface: #FFFFFF;
+  }
+
+  .dark {
+    --bg-primary: #201C2F;
+    --text-primary: #FFFFFF;
+    --text-secondary: #B8B8C5;
+    --surface: #000000;
+  }
+
+  /* Estilos base que responden al tema */
+  body {
+    @apply transition-colors duration-300;
+  }
+}

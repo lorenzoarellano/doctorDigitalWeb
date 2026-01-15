@@ -1,0 +1,35 @@
+/* TEAM */
+Fundador & CEO: Lorenzo Arellano
+Ubicación: Durango, México
+Contacto: https://doctordigital.mx/contacto
+
+/* SITE */
+Última actualización: 2025/11/12
+Lenguaje: Español / Spanish
+Doctype: HTML5
+IDE: VS Code
+Framework: Nuxt 3
+Estilo: TailwindCSS
+Hosting: TBD
+Standards: HTML5, CSS3, ES6+, WCAG AA
+
+/* THANKS */
+- Nuxt Team por el increíble framework
+- TailwindCSS por el sistema de diseño
+- GSAP por las animaciones fluidas
+- Google Fonts por Nunito Sans
+- Médicos que confían en nuestra visión digital
+
+/* TECHNOLOGY */
+Nuxt 3
+Vue 3
+TailwindCSS
+GSAP
+Google Analytics 4
+Schema.org
+SEO/AEO/LLMO/GEO Optimized
+
+/* PHILOSOPHY */
+"El futuro de la medicina también se construye en línea."
+Empoderando profesionales médicos mediante la tecnología.
+No hacemos campañas por ti, te enseñamos a ser autónomo digitalmente.

@@ -1,0 +1,7 @@
+# Robots.txt para DoctorDigital.mx
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://doctordigital.mx/sitemap.xml
