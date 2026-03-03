@@ -149,6 +149,64 @@
             <p class="text-xs text-text-secondary/80 mt-1">Durango, México</p>
           </div>
         </a>
+
+        <!-- Dr. Jeheziel Palacios Quiñonez -->
+        <a href="https://internistalaguna.com/" target="_blank" rel="noopener noreferrer" class="client-card group">
+          <div class="relative h-48 w-full flex items-center justify-center p-6 bg-white/5 rounded-2xl border border-white/10 group-hover:border-neon-pink/50 transition-all duration-300 backdrop-blur-sm">
+            <div class="absolute inset-0 bg-gradient-to-br from-neon-pink/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl"></div>
+            <NuxtImg 
+              src="/drJeheziel.webp" 
+              alt="Logo Dr. Jeheziel Palacios Quiñonez - Internista Laguna" 
+              class="max-h-32 w-auto object-contain transition-all duration-300 transform group-hover:scale-105"
+              loading="lazy"
+            />
+          </div>
+          <div class="mt-4 text-center">
+            <h3 class="text-lg font-semibold text-text-primary group-hover:text-neon-pink transition-colors">Dr. Jeheziel Palacios Quiñonez</h3>
+            <p class="text-sm text-text-secondary">Sitio Web + SEO Médico</p>
+            <p class="text-xs text-text-secondary/80 mt-1">La Laguna, Gómez Palacio & Torreón</p>
+          </div>
+        </a>
+
+        <!-- Dra. Rosalba Yissel Mendoza González -->
+        <a href="https://internistaenaguascalientes.com/" target="_blank" rel="noopener noreferrer" class="client-card group">
+          <div class="relative h-48 w-full flex items-center justify-center p-6 bg-white/5 rounded-2xl border border-white/10 group-hover:border-neon-cyan/50 transition-all duration-300 backdrop-blur-sm">
+            <div class="absolute inset-0 bg-gradient-to-br from-neon-cyan/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl"></div>
+            <NuxtImg 
+              src="/draYissel.webp" 
+              alt="Logo Dra. Rosalba Yissel Mendoza González - Internista Aguascalientes" 
+              class="max-h-32 w-auto object-contain transition-all duration-300 transform group-hover:scale-105"
+              loading="lazy"
+            />
+          </div>
+          <div class="mt-4 text-center">
+            <h3 class="text-lg font-semibold text-text-primary group-hover:text-neon-cyan transition-colors">Dra. Rosalba Yissel Mendoza González</h3>
+            <p class="text-sm text-text-secondary">Sitio Web + SEO Médico</p>
+            <p class="text-xs text-text-secondary/80 mt-1">Aguascalientes, México</p>
+          </div>
+        </a>
+
+        <!-- Dr. Eduardo Pacheco Ponce -->
+        <div class="client-card group cursor-default">
+          <div class="relative h-48 w-full flex items-center justify-center p-6 bg-white/5 rounded-2xl border border-white/10 group-hover:border-accent/50 transition-all duration-300 backdrop-blur-sm">
+            <div class="absolute inset-0 bg-gradient-to-br from-accent/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl"></div>
+            <NuxtImg 
+              src="/eduardoPacheco.webp" 
+              alt="Logo Dr. Eduardo Pacheco Ponce - Geriatra Atizapán" 
+              class="max-h-32 w-auto object-contain transition-all duration-300 transform group-hover:scale-105"
+              loading="lazy"
+            />
+          </div>
+          <div class="mt-4 text-center">
+            <h3 class="text-lg font-semibold text-text-primary group-hover:text-accent transition-colors">Dr. Eduardo Pacheco Ponce</h3>
+            <p class="text-sm text-text-secondary">Sitio Web + Branding</p>
+            <p class="text-xs text-text-secondary/80 mt-1">Atizapán & Arboledas, Edomex</p>
+            <div class="flex gap-2 justify-center mt-3">
+              <a href="https://geriatraatizapan.com/" target="_blank" rel="noopener noreferrer" class="px-3 py-1 text-xs font-medium bg-accent/20 hover:bg-accent/40 text-accent rounded-full transition-colors duration-200">Atizapán</a>
+              <a href="https://geriatriaarboledas.com/" target="_blank" rel="noopener noreferrer" class="px-3 py-1 text-xs font-medium bg-accent/20 hover:bg-accent/40 text-accent rounded-full transition-colors duration-200">Arboledas</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
