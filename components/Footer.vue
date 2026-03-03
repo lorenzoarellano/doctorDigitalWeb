@@ -79,6 +79,17 @@
         <p class="text-text-secondary text-xs mt-2">
           Innovación, diseño y tecnología para profesionales de la salud
         </p>
+        <div class="flex flex-col items-center gap-2 mt-4">
+          <p class="text-text-secondary/60 text-xs">Una empresa hermana de:</p>
+          <a href="https://thecapibaraweb.com.mx/" target="_blank" rel="noopener noreferrer" aria-label="The Capibara Web">
+            <NuxtImg
+              src="/capibara-dark.webp"
+              alt="The Capibara Web"
+              class="h-8 w-auto opacity-60 hover:opacity-100 transition-opacity duration-300"
+              loading="lazy"
+            />
+          </a>
+        </div>
       </div>
     </div>
   </footer>
