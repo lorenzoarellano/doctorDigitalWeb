@@ -127,7 +127,8 @@ export default defineNuxtConfig({
       '/como-ser-visible-online',
       '/contacto',
       '/privacidad',
-      '/terminos-condiciones'
+      '/terminos-condiciones',
+      '/la-ola-que-viene'
     ],
     defaults: {
       changefreq: 'weekly',
@@ -146,7 +147,7 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: false,
-      routes: ['/', '/acerca-de', '/servicios', '/como-ser-visible-online', '/contacto', '/privacidad', '/terminos-condiciones']
+      routes: ['/', '/acerca-de', '/servicios', '/como-ser-visible-online', '/contacto', '/privacidad', '/terminos-condiciones', '/la-ola-que-viene']
     },
     compressPublicAssets: true,
     minify: true,
